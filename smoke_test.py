@@ -21,7 +21,7 @@ client = OpenAI(
 
 try:
     response = client.chat.completions.create(
-        model="meta/llama3-8b-instruct",
+        model="meta/llama-3.1-8b-instruct",
         messages=[{"role": "user", "content": "Reply with only the words: 'Connection successful!'"}]
     )
     print("✅ Success! NVIDIA NIM responded with:")

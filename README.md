@@ -12,7 +12,7 @@ Before starting, ensure you have completed the pre-work:
 **1. Launch your environment**
 Using the Brev CLI, spin up your GPU environment synced to this repository:
 ```bash
-brev launch https://github.com/mashby2022/agents-of-change
+brev start https://github.com/mashby2022/agents-of-change
 ```
 
 ## Building a Frontend with Lovable
